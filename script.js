@@ -4,7 +4,6 @@ let box = 32;
 let snake = [];
 
 let showPoints = document.querySelector('.points');
-let points = 0;
 
 snake[0] = {
     x: 8 * box,
