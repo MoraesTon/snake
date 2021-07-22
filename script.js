@@ -74,7 +74,7 @@ function gameStart() {
     } else {
         food.x = Math.floor(Math.random() * 15 + 1) * box;
         food.y = Math.floor(Math.random() * 15 + 1) * box;
-        showPoints.innerHTML = ++points;
+        showPoints.innerHTML = snake.length;
     }
 
     let newHead = {
